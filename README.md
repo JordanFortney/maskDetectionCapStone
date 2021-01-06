@@ -1,4 +1,4 @@
-# Mask Detection with Convoluited Neural Networks
+# Mask Detection with Convoluted Neural Networks
 
 ### Introduction
 According to the CDC and other health authorities, cloth or medical masks are an effective method of reducing the spread of covid-19. Many industries are using security guards or other staff members to enforce compliance of mask mandates but an automatic method would be much more efficient. Using still frames from video could be a method of alerting staff of a non-compliant visitor just like the magnetic detectors in retail stores alert staff when a non purchased product is leaving the store. The goal of this project was to develop a model that is capable of detecting whether someone is wearing a mask or not and therefore whether they are in compliance with health and safety regulations. 
