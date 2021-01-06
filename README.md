@@ -4,16 +4,16 @@ According to the CDC and other health authorities, cloth or medical masks are an
 
 The input data for this project consisted of two datasets downloaded from Kaggle. These datasets are made up of .jpg images belonging to 2 classes, with a mask and without a mask. They can be found here and here. Between these two datasets, there are 5028 images without masks and 4913 images with masks. The final image counts for each category are 4465 without a mask and 4295 with a mask. For this project to run you must have the following schema and naming convention in place within your working directory:
 
-yes 
-no   
-mask_detection_random   
-	no   
-	yes   
-test_rand   
-	no   
-		images   
-	yes   
-		images   
+- yes 
+- no   
+- mask_detection_random   
+  - no   
+  - yes   
+- test_rand   
+  - no   
+    - images   
+  - yes   
+    - images   
 
 The original datasets should be deposited into the '/yes' and '/no' directories within the working directory based on their category of image. The '/yes' and '/no' directories are the directories where all the images are found prior to the randomized split. The '/mask_detection_random' directory is where the train and validation splits are saved while the '/test_rand' directory is where the test split is housed.
 
